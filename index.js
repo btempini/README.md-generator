@@ -16,12 +16,12 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-// const writeFile = (data) =>
-//   fs.writeToFile("README.md", data, (err) =>
-//     err
-//       ? console.error(err)
-//       : console.log("Success! Your README.md has been created.")
-//   );
+const writeFile = (generateResult) =>
+  fs.writeFile("README.md", generateResult, (err) =>
+    err
+      ? console.error(err)
+      : console.log("Success! Your README.md has been created.")
+  );
 
 // TODO: Create a function to initialize app
 function init() {
@@ -70,7 +70,8 @@ function init() {
     ])
     .then((data) => {
       // console.log(data);
-      generateMarkdown(data);
+      const generateResult = generateMarkdown(data);
+      writeFile(generateResult);
     });
 }
 

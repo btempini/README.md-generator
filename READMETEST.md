@@ -1,8 +1,6 @@
-# Here is the title
+# Title
 
 ## Description
-
-Here is some text in the description subheader.
 
 ## Table of Contents
 
