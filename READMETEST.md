@@ -21,6 +21,8 @@
 
 ## License
 
+![alt text](link here "Logo Title Text 1")
+
 ---
 
 ## Contributors

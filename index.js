@@ -12,12 +12,14 @@ const questions = [
   "Which type of license would you like to apply?",
   "How can people contribute?",
   "Are there any tests to run and how do you run them?",
-  "Enter your contact info so people may reach out with questions.",
+  "Enter your linkedin url.",
+  "Enter your github url.",
+  "Enter your email.",
 ];
 
 // TODO: Create a function to write README file
-const writeFile = (generateResult) =>
-  fs.writeFile("README.md", generateResult, (err) =>
+const writeReadMeFile = (readme) =>
+  fs.writeFile("README.md", readme, (err) =>
     err
       ? console.error(err)
       : console.log("Success! Your README.md has been created.")
@@ -48,8 +50,9 @@ function init() {
         name: "usage",
       },
       {
-        type: "input",
+        type: "list",
         message: questions[4],
+        choices: ["MIT License", "GNU GPLv3"],
         name: "license",
       },
       {
@@ -65,13 +68,23 @@ function init() {
       {
         type: "input",
         message: questions[7],
-        name: "contact",
+        name: "linkedin",
+      },
+      {
+        type: "input",
+        message: questions[8],
+        name: "github",
+      },
+      {
+        type: "input",
+        message: questions[9],
+        name: "email",
       },
     ])
     .then((data) => {
       // console.log(data);
-      const generateResult = generateMarkdown(data);
-      writeFile(generateResult);
+      const generatedResult = generateMarkdown(data);
+      writeReadMeFile(generatedResult);
     });
 }
 
