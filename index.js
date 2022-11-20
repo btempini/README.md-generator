@@ -52,7 +52,11 @@ function init() {
       {
         type: "list",
         message: questions[4],
-        choices: ["MIT License", "GNU GPLv3"],
+        choices: [
+          "MIT License",
+          "GNU General Public License v3.0",
+          "Apache License 2.0",
+        ],
         name: "license",
       },
       {
