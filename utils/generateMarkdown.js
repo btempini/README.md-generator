@@ -859,12 +859,12 @@ function generateMarkdown(data) {
   ${data.description}
   ## Table of Contents
 
-  1. Installation
-  2. Useage
-  3. License
-  4. Contributors
-  5. Testing
-  6. Contact
+  1. [Installation](#installation)
+  2. [Useage](#useage)
+  3. [License](#license)
+  4. [Contributors](#contributors)
+  5. [Testing](#testing)
+  6. [Contact](#contact)
   
   ## Installation
   
@@ -889,9 +889,9 @@ function generateMarkdown(data) {
   ## Contact
   
   ---
-  Linkedin:${data.linkedin}<br>
-  Github:${data.github}<br>
-  Email:${data.email}<br>
+  Linkedin: ${data.linkedin}<br>
+  Github: ${data.github}<br>
+  Email: ${data.email}<br>
   `;
 }
 
