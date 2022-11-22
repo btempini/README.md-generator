@@ -19,7 +19,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 const writeReadMeFile = (readme) =>
-  fs.writeFile("README.md", readme, (err) =>
+  fs.writeFile("READMEGEN.md", readme, (err) =>
     err
       ? console.error(err)
       : console.log("Success! Your README.md has been created.")
@@ -62,7 +62,7 @@ function init() {
       {
         type: "input",
         message: questions[5],
-        name: "contribute",
+        name: "contributors",
       },
       {
         type: "input",
