@@ -1,40 +1,48 @@
 # README.md Generator
 
-  ## Description
-  An application for easily creating documentation for all of your projects.
-  ## Table of Contents
+## Description
 
-  1. [Installation](#installation)
-  2. [Useage](#useage)
-  3. [License](#license)
-  4. [Contributors](#contributors)
-  5. [Testing](#testing)
-  6. [Contact](#contact)
-  
-  ## Installation
-  
-  ---
-  To initialize the app open up your terminal and enter "node index.js"
-  ## Useage
-  
-  ---
-  For anyone who wants to create a README.md
-  ## License
-  ------
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  [Click here for more info on licensing](https://en.wikipedia.org/wiki/MIT_License)    
-  
+An application for easily creating documentation for all of your projects.
+
+## Table of Contents
+
+1. [Installation](#installation)
+2. [Useage](#useage)
+3. [License](#license)
+4. [Contributors](#contributors)
+5. [Testing](#testing)
+6. [Contact](#contact)
+
+## Installation
+
+---
+
+To initialize the app open up your terminal and enter "node index.js"
+
+## Useage
+
+---
+
+For anyone who wants to create a README.md
+
+## License
+
+---
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Click here for more info on licensing](https://en.wikipedia.org/wiki/MIT_License)
+
     Copyright (c) 2022 Bryan Tempini
-    
+
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
     furnished to do so, subject to the following conditions:
-    
+
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
-    
+
     THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
     IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
     FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -42,19 +50,23 @@
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-    
-  ## Contributors
-  
-  ---
-  undefined
-  ## Testing
-  
-  ---
-  No tests
-  ## Contact
-  
-  ---
-  Linkedin: https://github.com/btempini<br>
-  Github: https://github.com/btempini<br>
-  Email: mistatempini@gmail.com<br>
-  
+
+## Contributors
+
+---
+
+Me Myself and I
+
+## Testing
+
+---
+
+No tests
+
+## Contact
+
+---
+
+Linkedin: https://github.com/btempini<br>
+Github: https://github.com/btempini<br>
+Email: mistatempini@gmail.com<br>
