@@ -2,9 +2,15 @@
 
 ## Description
 
+---
+
 An application for easily creating documentation for all of your projects.
 
+[Click here to watch a short video presentation of the application](https://drive.google.com/file/d/1WPfJzIyJZ9IsdTC_qI1fr3uJxa2Mu8BV/view)
+
 ## Table of Contents
+
+---
 
 1. [Installation](#installation)
 2. [Useage](#useage)
@@ -67,6 +73,6 @@ No tests
 
 ---
 
-Linkedin: https://github.com/btempini<br>
-Github: https://github.com/btempini<br>
-Email: mistatempini@gmail.com<br>
+Linkedin: [https://linkedin.com/in/bryantempini/](https://linkedin.com/in/bryantempini/)<br>
+Github: [https://github.com/btempini](https://github.com/btempini)<br>
+Email: [mistatempini@gmail.com](mailto:mistatempini@gmail.com)<br>
