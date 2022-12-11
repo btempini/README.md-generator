@@ -889,9 +889,9 @@ function generateMarkdown(data) {
   ## Contact
   
   ---
-  Linkedin: ${data.linkedin}<br>
-  Github: ${data.github}<br>
-  Email: ${data.email}<br>
+  Linkedin: [/bryantempini](https://www.linkedin.com/in/bryantempini/)<br>
+  Github: [/btempini](https://github.com/btempini)<br>
+  Email: [mistatempini@gmail.com](mailto:mistatempini@gmail.com)<br>
   `;
 }
 
